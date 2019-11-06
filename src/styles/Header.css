@@ -1,0 +1,38 @@
+.header {
+  background-color: #4A90E2;
+  color: white;
+
+  width: 100%;
+  height: 64px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  width: 90%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#name-logo {
+  height: 24px;
+}
+
+.profile-link-icon {
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+}
+
+#profile-link {
+  margin-right: 8px;
+}
+
+#profile-link:hover {
+  text-decoration: underline;
+}
