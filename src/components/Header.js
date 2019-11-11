@@ -1,22 +1,22 @@
 import React from 'react';
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import '../styles/Header.css';
 
 import nameLogo from '../assets/facebook-name-logo.png';
+import SmallAvatar from './SmallAvatar';
 
 function Header() {
   return (
-    <div class="header">
-      <div class="header-content">
+    <header className="header">
+      <div className="header-content">
         <img id="name-logo" src={nameLogo} />
-        <div class="profile-link-icon">
+        <nav className="profile-link-icon">
           <a id="profile-link" href="#">
             Meu perfil
           </a>
-          <AccountCircleIcon />
-        </div>
+          <SmallAvatar />
+        </nav>
       </div>
-    </div>
+    </header>
   );
 }
 

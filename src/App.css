@@ -13,3 +13,18 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.main-content {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.marginLeft8 {
+  margin-left: 8px;
+}

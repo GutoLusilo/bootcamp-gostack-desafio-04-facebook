@@ -1,0 +1,37 @@
+.post {
+  width: 100%;
+
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.post-top {
+  display: flex;
+}
+
+.post-top-text {
+  margin-left: 8px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.smallGray {
+  font-size: small;
+  color: #9A9A9A;
+}
+
+.content {
+  margin-top: 20px;
+  padding-bottom: 25px;
+  margin-bottom: 10px;
+
+  border-bottom: solid 1px #eee;
+}
